@@ -1,8 +1,26 @@
 aid: amyris
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amyris.png
 name: Amyris
-description: 'Amyris is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Amyris, Inc. is a synthetic-biology and precision-fermentation company
+  that engineers microbes to convert plant-derived sugars into high-performance renewable
+  molecules — including farnesene, squalene, squalane, and bisabolol — at industrial
+  scale. The company offers strain development, process development, piloting, scale-up,
+  and manufacturing services for custom renewable chemistry used across personal care,
+  cosmetics, flavors and fragrances, and other industries, emphasizing resilient supply
+  chains, product consistency, and reduced ecological impact. Amyris is a private company
+  that emerged from a 2023 Chapter 11 restructuring; it does not currently publish a
+  public developer API or technology platform.'
 url: https://raw.githubusercontent.com/api-evangelist/amyris/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,10 +33,31 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Healthcare
+- Biotechnology
+- Synthetic Biology
+- Precision Fermentation
+- Renewable Chemistry
+- Ingredients
+- Personal Care
+- Sustainability
+- Manufacturing
+common:
+- type: Website
+  url: https://amyris.com
+- type: PrivacyPolicy
+  url: https://amyris.com/privacy-policy
+- type: Support
+  url: https://amyris.com/contact-us
+- type: DomainSecurity
+  url: security/amyris-domain-security.yml
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
